@@ -6,7 +6,7 @@ library("tseries")
 library("rugarch")
 
 #READ DATA
-setwd("C:\\Users\\anhsáng\\Desktop")
+#setwd("<directory contains *.csv file>")
 data <- read.csv( file = "monthly-lake-erie-levels-1921-19.csv",
                   header = FALSE,
                   skip = 1,
